@@ -1,4 +1,6 @@
 import setuptools
+import distutils.log
+distutils.log.set_verbosity(distutils.log.DEBUG)
 
 setuptools.setup(
     name                            = "orquestra",
